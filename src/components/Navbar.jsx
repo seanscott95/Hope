@@ -1,37 +1,39 @@
+import Image from 'react-bootstrap/Image';
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <div className="container">
         <div className="navbar-header">
           <a className="navbar-brand" href="#">
-            <img
-              src="../src/assets/images/h.png"
+            <Image
+              src="../public/assets/images/h.png"
               className="m-1"
               width="40"
               height="40"
               alt="H"
-            ></img>
-            <img
-              src="../src/assets/images/o.png"
+            />
+            <Image
+              src="../public/assets/images/o.png"
               className="m-1"
               width="40"
               height="40"
-              alt="H"
-            ></img>
-            <img
-              src="../src/assets/images/p.png"
+              alt="O"
+            />
+            <Image
+              src="../public/assets/images/p.png"
               className="m-1"
               width="40"
               height="40"
-              alt="H"
-            ></img>
-            <img
-              src="../src/assets/images/e.png"
+              alt="P"
+            />
+            <Image
+              src="../public/assets/images/e.png"
               className="m-1"
               width="40"
               height="40"
-              alt="H"
-            ></img>
+              alt="E"
+            />
           </a>
         </div>
         
