@@ -2,7 +2,7 @@ import Image from 'react-bootstrap/Image';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bg-gradient p-3">
       <div className="container">
         <div className="navbar-header">
           <a className="navbar-brand" href="#">
@@ -50,12 +50,12 @@ const Navbar = () => {
         </button>
 
         <div
-          className="collapse navbar-collapse justify-content-center"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link text-light">
                 Home
               </a>
             </li>
